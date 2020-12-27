@@ -1,0 +1,34 @@
+1:
+1,1,2,362880,3628800
+
+2:
+It prints 1. You can type an if statment that says if number is negitive, 
+say that and return 0 to terminate the function.
+
+3:
+At  13, it prints 1932053504.
+It gets too big for the program to write to and prints wrong
+
+4:
+__________________
+# include <iostream>
+
+using namespace std;
+int main ()
+{
+short number ;
+cout << " Enter a number : ";
+cin >> number ;
+if (number<0){
+    cout << "You typed a negitive number.\n";
+    return 0;
+}
+long f;
+f = 1;
+for (int i = number; i != 0; i--){
+    f *= i;
+}
+cout << "The factorial of " << number << " is " << f << "\n";
+return 0;
+}
+__________________
