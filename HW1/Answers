@@ -2,3 +2,13 @@
 It gives an error that it is redefined
 
 2:
+No errors, prints what it was last redefined as.
+
+3:
+Since it printed 'A' instead of -1, it waould use the inner block declaration.
+
+4:
+-1. After it comes out of the nner block, it goes back to its origional def for arg1.
+
+5:
+The program cannout use cout without #include <iostream>
