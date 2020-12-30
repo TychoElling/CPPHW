@@ -1,14 +1,14 @@
-double s2 (const int a,const int b){
+#include <iostream>
 
-}
-double sum (const array arr){
-    int s = 0;
-    for (int i = 0 i < sizeof(arr),i++){
-        s += arr[i];
+
+double sum (const int arr[], int l, double s = 0){
+    if (l == 0){
+        return s;
     }
-    return s;
-}
+    return sum(arr,l-1,s+arr[l-1]);
+};
 
 int main (){
-    return 0;
+    int arr[4] = {1,2,3,4};
+    std::cout << sum (arr,4) << "\n";
 }
