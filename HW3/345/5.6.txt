@@ -1,0 +1,12 @@
+1:
+Error because to make a point, you need a constructor, 
+and the only way to get it is to be in the class and have a 
+Point already.
+
+2:
+The static int goes down by one.
+
+3:
+Because you will need the arr to calculate the area for Rectangle
+and Triangle.
+

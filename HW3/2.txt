@@ -1,0 +1,16 @@
+2.1:
+No semicolon on line 20.
+2.2:
+The const on line 11 makes x = newX on the same line an
+error because it means that it is imossible to change 
+anything and gives an error.
+2.3:
+x and y are private, to get them you need through
+getX and getY.
+2.4:
+Because the def for setX is outside the class, you need
+to write (class name)::(function name) ... .
+2.5:
+Put [] after delete. (delete[] nums;)
+2.6:
+Did not delete the pointer p.

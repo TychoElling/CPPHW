@@ -15,4 +15,4 @@ int main() {
 
     cout << suitNames [ suitNum - 1];
  
-}
+} 

@@ -1,0 +1,3 @@
+Because arrays are pointers and PointArray stores an array, they
+end up being the same object because they are using the same 
+memory.
